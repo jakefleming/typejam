@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="64" viewBox="0 0 66 64">
+  <title>hand</title>
+  <g>
+    <path d="M1.4,32.918c0-8.627,3.81-15.62,12.437-15.62a15.62,15.62,0,0,1,0,31.241C5.208,48.539,1.4,41.545,1.4,32.918Z" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path d="M42.966,32.918c0,9.929-4.385,17.979-14.315,17.979a17.979,17.979,0,0,1,0-35.958C38.581,14.939,42.966,22.989,42.966,32.918Z" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path d="M39.931,37.545h0a1.614,1.614,0,1,1-2.314,2.25,5.593,5.593,0,1,0-8.019,7.8A12.8,12.8,0,0,0,47.95,29.745" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path d="M35.929,29.046h0a1.614,1.614,0,1,1-1.413,2.9A5.593,5.593,0,1,0,29.616,42,12.8,12.8,0,0,0,40.828,18.989" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path d="M28.583,14.939H57.364a7.146,7.146,0,0,1,0,14.291H29.849" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path d="M20.275,32.589l7.771,3.237A7.326,7.326,0,1,0,33.679,22.3l-7.771-3.237" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>
