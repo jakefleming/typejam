@@ -1,8 +1,0 @@
-.card {
-  background: white;
-  border-radius: $border-radius;
-}
-.card-body {
-  @include shadow($interactive : true);
-  padding: $space*2;
-}
