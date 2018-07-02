@@ -1,0 +1,15 @@
+@mixin backgroundColor($color, $hover-color : darken($color, 10%), $interactive : false) {
+  @if ($interactive != true) {
+    background: $color;
+  } @else {
+    background: $color;
+    cursor: pointer;
+    transition: $transition-bg;
+    &:hover {
+      background: $hover-color!important;
+    }
+    &.active:hover {
+      background: $hover-color!important;
+    }
+  }
+}

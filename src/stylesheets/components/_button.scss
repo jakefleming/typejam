@@ -1,0 +1,62 @@
+@mixin buttonVariant($color, $raised : false ) {
+  // The basics for all buttons
+  border: 0;
+  border-radius: $border-radius;
+  display: inline-block;
+  font-family: $font-02;
+  font-size: 1rem;
+  font-weight: $font-weight-03;
+  letter-spacing: 1px;
+  line-height: $line-height;
+  outline: none;
+  padding: $space $space*2;
+  text-decoration: none;
+  // Tiny buttons
+  &.dense {
+    font-size: .75rem;
+    line-height: 1.5rem;
+    padding: 0 $space/4;
+  }
+  // If raised is true then...
+  @if ($raised == true ) {
+    // Include an interactive (reacts to pointer events, hover + active) background color
+    @include backgroundColor($color: $color, $interactive: true);
+    // Change color to white because background is probably too dark
+    color: white;
+    // Give the button a shadow to make it come off the page
+    // box-shadow: 0 2px 5px transparentize($color, .5);
+    // Change shadow when hovering to make the button look like it's coming off the page
+    &:hover {
+      box-shadow: 0 5px 10px transparentize($color, .5);
+    }
+    // Make button to appear to sink back onto the page on click
+    &:active {
+      background: darken($color, 20%);
+      box-shadow: none;
+    }
+  }@else {
+    // If not raised still give the button an interactive background but lighter
+    @include backgroundColor($color: lighten($color, 32%), $interactive: true);
+    // Use the input color value as the color text
+    color: $color;
+    &:active {
+      // Darken background and text on click to provide feedback
+      background: darken(lighten($color, 35%), 20%);
+      color: darken($color, 20%);
+    }
+  }
+  
+}
+
+.button, a.button, input.button {
+  // If a modifier is not provided the button will appear this way
+  @include buttonVariant($color : $brand-color-01);
+  // Primary button modifier
+  &.primary {
+    @include buttonVariant($color : $brand-color-01, $raised : true);
+  }
+  // Accent button modifier
+  &.accent {
+    @include buttonVariant($color : $accent-color, $raised : true);
+  }
+}

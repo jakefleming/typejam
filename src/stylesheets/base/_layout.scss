@@ -1,0 +1,100 @@
+.app {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+}
+
+header {
+  /* stretch from first grid line to last grid line */
+  grid-column: 1/-1;
+  -ms-grid-column-span: 2;
+  grid-row: 2;
+}
+
+aside {
+  grid-row: 3;
+  width: $space*18;
+}
+
+[role=main] {
+  grid-row: 3;
+  grid-column: auto / span 12;
+  overflow: auto;
+}
+
+// * LAYOUT
+.layout {
+  margin: 0 auto;
+  max-width: 900px;
+  &.wide {
+    max-width: 1200px;
+  }
+  &.narrow {
+    max-width:600px;
+  }
+}
+
+// * GRID
+.grid {
+  display: grid;
+  grid-gap: $space*2;
+  &.dense {
+    grid-gap: $space;
+  }
+  &.two-column {
+    grid-template-columns: repeat(2, [col-start] 1fr);
+  }
+  &.three-column {
+    grid-template-columns: repeat(3, [col-start] 1fr);
+  }
+  &.four-column {
+    grid-template-columns: repeat(4, [col-start] 1fr);
+  }
+  &.five-column {
+    grid-template-columns: repeat(5, [col-start] 1fr);
+  }
+  &.six-column {
+    grid-template-columns: repeat(6, [col-start] 1fr);
+  }
+}
+
+// * FLEX
+.flex {
+  display: flex;
+}
+.between {
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .stacked-on-mobile {
+    display: block;
+  }
+}
+
+// * MARGIN
+.ml-01 {
+  margin-left: $space/4;
+}
+
+.mb-01 {
+  margin-bottom: $space/2;
+}
+
+.mb-02 {
+  margin-bottom: $space;
+}
+
+.mb-03 {
+  margin-bottom: $space*2!important;
+}
+
+.mb-05 {
+  margin-bottom: $space*4!important;
+}
+
+// * WIDTH
+.full-width {
+  width: 100%;
+}

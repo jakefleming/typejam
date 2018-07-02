@@ -1,0 +1,42 @@
+.top-nav {
+  // @include shadow($primary-color);
+  padding: $space/2 $space;
+  z-index: 1;
+  line-height: 1.5rem;
+  .off-canvas-toggle {
+    grid-column: auto;
+    display: none;
+  }
+  .brand {
+    display: inline-block;
+    line-height: 2rem;
+  }
+  .nav-link {
+    color: white;
+    font-family: $font-02;
+    font-size: 1rem;
+    font-weight: $font-weight-03;
+    line-height: 1rem;
+    text-decoration: none;
+    + .nav-link {
+      margin-left: $space;
+    }
+  }
+  .primary.button, .primary.button:hover, .primary.button:active, .primary.button:focus  {
+    color: black!important;
+    background: white!important;
+    font-size: .75rem;
+    font-weight: $font-weight-04;
+    letter-spacing: 1px;
+    padding: $space/2 $space*1.5;
+    margin-left: $space;
+  }
+}
+
+.primary.top-nav {
+  background: $primary-color;
+  color: white;
+  .off-canvas-toggle {
+    color: white;
+  }
+}

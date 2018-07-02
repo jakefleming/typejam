@@ -1,0 +1,47 @@
+.nav-list {
+  padding: $space;
+}
+
+.list-item {
+  @include backgroundColor(white, darken($primary-color-light,10%), true);
+  border-radius: $border-radius;
+  color: $primary-color;
+  font-size: 1rem;
+  line-height: $line-height;
+  padding: $space/2 $space*1.5 $space/2 $space;
+  position: relative;
+  text-transform: capitalize;
+  width: 100%;
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.list-item + .list-item {
+  margin-top: .5rem;
+}
+
+.list-item .button {
+  position: absolute;
+  right: $space/2;
+  top: $space/2;
+}
+
+.list-item.heading {
+  color: $neutral-color;
+  font-size: .75rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.list-item.active, .list-item.heading.active {
+  @include backgroundColor($primary-color-light, true);
+  color: $neutral-color-darkest;
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.list-item.heading:hover {
+  color: $primary-color!important;
+}

@@ -1,0 +1,16 @@
+.side-nav {
+  //@include backgroundColor($neutral-color-darkest);
+  background: white;
+  transition: transform .3s ease-in-out;
+  @media only screen and (max-width: 599px) {
+    position: fixed; /* or choose `absolute` depending on desired behavior*/
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    left: -340px;
+    transition: transform .3s ease-in-out;
+  }
+  @media only screen and (max-width: 599px) {
+    padding-top: $space*2;
+  }
+}

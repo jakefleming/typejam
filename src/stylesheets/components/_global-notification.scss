@@ -1,0 +1,8 @@
+.global-notification {
+  @include backgroundColor($color : $accent-color, $interactive : true);
+  grid-column: 1/-1;
+  -ms-grid-column-span: 2;
+  grid-row: 1;
+  color: white;
+  padding: $space/2 $space;
+}
