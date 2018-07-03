@@ -20,7 +20,8 @@ aside {
 [role=main] {
   grid-row: 3;
   grid-column: auto / span 12;
-  overflow: auto;
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 // * LAYOUT

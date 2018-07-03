@@ -1,5 +1,6 @@
 @mixin buttonVariant($color, $raised : false ) {
   // The basics for all buttons
+  appearance: none;
   border: 0;
   border-radius: $border-radius;
   display: inline-block;
@@ -45,7 +46,7 @@
       color: darken($color, 20%);
     }
   }
-  
+
 }
 
 .button, a.button, input.button {
