@@ -23,7 +23,7 @@ label {
 .form-text {
   background: white;
   border: 0;
-  box-shadow: inset 0px -2px black;
+  box-shadow: 0px 2px black;
   color: black;
   font-family: $font-01;
   font-weight: $font-weight-02;
@@ -55,7 +55,7 @@ label {
 }
 
 .form-select-container {
-  box-shadow: inset 0px -2px black;
+  box-shadow: 0px 2px black;
   display: block;
 }
 
