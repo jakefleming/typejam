@@ -24,20 +24,22 @@ $font-03: 'Jam';
 
 // ** gooper
 @font-face {
-  font-family: $font-01; font-weight: $font-weight-01; src: url(../fonts/Gooper0.2-Thin.woff2); }
-@font-face { font-family: $font-01; font-weight: $font-weight-02; src: url(../fonts/Gooper0.2-Light.woff2); }
-@font-face { font-family: $font-01; font-weight: $font-weight-03; src: url(../fonts/Gooper0.2-Regular.woff2); }
-@font-face { font-family: $font-01; font-weight: $font-weight-05; src: url(../fonts/Gooper0.2-SemiBold.woff2); }
-@font-face { font-family: $font-01; font-weight: $font-weight-06; src: url(../fonts/Gooper0.2-Bold.woff2); }
-@font-face { font-family: $font-01; font-weight: $font-weight-08; src: url(../fonts/Gooper0.2-Black.woff2); }
+  font-family: $font-01; font-weight: $font-weight-01;
+  src: url(../fonts/Gooper0.2-Thin.woff2) format('woff2');
+}
+@font-face { font-family: $font-01; font-weight: $font-weight-02; src: url(../fonts/Gooper0.2-Light.woff2) format('woff2'); }
+@font-face { font-family: $font-01; font-weight: $font-weight-03; src: url(../fonts/Gooper0.2-Regular.woff2) format('woff2'); }
+@font-face { font-family: $font-01; font-weight: $font-weight-05; src: url(../fonts/Gooper0.2-SemiBold.woff2) format('woff2'); }
+@font-face { font-family: $font-01; font-weight: $font-weight-06; src: url(../fonts/Gooper0.2-Bold.woff2) format('woff2'); }
+@font-face { font-family: $font-01; font-weight: $font-weight-08; src: url(../fonts/Gooper0.2-Black.woff2) format('woff2'); }
 
 // ** gooper italic
-@font-face { font-family: $font-02; font-weight: $font-weight-01; font-style: italic; src: url(../fonts/Gooper0.2-ThinItalic.woff2); }
-@font-face { font-family: $font-02; font-weight: $font-weight-02; font-style: italic; src: url(../fonts/Gooper0.2-LightItalic.woff2); }
-@font-face { font-family: $font-02; font-weight: $font-weight-03; font-style: italic; src: url(../fonts/Gooper0.2-RegularItalic.woff2); }
-@font-face { font-family: $font-02; font-weight: $font-weight-05; font-style: italic; src: url(../fonts/Gooper0.2-SemiBoldItalic.woff2); }
-@font-face { font-family: $font-02; font-weight: $font-weight-06; font-style: italic; src: url(../fonts/Gooper0.2-BoldItalic.woff2); }
-@font-face { font-family: $font-02; font-weight: $font-weight-08; font-style: italic; src: url(../fonts/Gooper0.2-BlackItalic.woff2); }
+@font-face { font-family: $font-02; font-weight: $font-weight-01; font-style: italic; src: url(../fonts/Gooper0.2-ThinItalic.woff2) format('woff2'); }
+@font-face { font-family: $font-02; font-weight: $font-weight-02; font-style: italic; src: url(../fonts/Gooper0.2-LightItalic.woff2) format('woff2'); }
+@font-face { font-family: $font-02; font-weight: $font-weight-03; font-style: italic; src: url(../fonts/Gooper0.2-RegularItalic.woff2) format('woff2'); }
+@font-face { font-family: $font-02; font-weight: $font-weight-05; font-style: italic; src: url(../fonts/Gooper0.2-SemiBoldItalic.woff2) format('woff2'); }
+@font-face { font-family: $font-02; font-weight: $font-weight-06; font-style: italic; src: url(../fonts/Gooper0.2-BoldItalic.woff2) format('woff2'); }
+@font-face { font-family: $font-02; font-weight: $font-weight-08; font-style: italic; src: url(../fonts/Gooper0.2-BlackItalic.woff2) format('woff2'); }
 
 // ** jam
 @font-face { font-family: $font-03; font-weight: $font-weight-04; src: url(../fonts/JamRegular.woff2); }
