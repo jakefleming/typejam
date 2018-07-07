@@ -76,15 +76,15 @@ aside {
 
 // * MARGIN
 .ml-01 {
-  margin-left: $space/4;
+  margin-left: $space/4!important;
 }
 
 .mb-01 {
-  margin-bottom: $space/2;
+  margin-bottom: $space/2!important;
 }
 
 .mb-02 {
-  margin-bottom: $space;
+  margin-bottom: $space!important;
 }
 
 .mb-03 {
@@ -98,4 +98,14 @@ aside {
 // * WIDTH
 .full-width {
   width: 100%;
+}
+
+// * ALIGN
+.vertically-aligned {
+  align-items: center;
+}
+
+*.centered {
+  margin: 0 auto;
+  justify-content: center;
 }
