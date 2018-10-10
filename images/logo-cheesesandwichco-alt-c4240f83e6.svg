@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <title>logo-cheesesandwichco-alt</title>
+  <g>
+    <rect x="13" y="18" width="30" height="27" rx="4" ry="4" fill="#000100" stroke="#000100" stroke-linejoin="round" stroke-width="2"/>
+    <g>
+      <rect x="13.151" y="13.151" width="29.698" height="29.698" rx="5" ry="5" transform="translate(-11.598 28) rotate(-45)" fill="#fff"/>
+      <rect x="13.151" y="13.151" width="29.698" height="29.698" rx="5" ry="5" transform="translate(-11.598 28) rotate(-45)" fill="none" stroke="#000100" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <path d="M39,42H17a4,4,0,0,1-4-4V19c0-2.209,1.791-3,4-3H39c2.209,0,4,.791,4,3V38A4,4,0,0,1,39,42Z" fill="#000100" stroke="#000100" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="13" y="13" width="30" height="26" rx="4" ry="4" fill="#fff" stroke="#000100" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M33.5,32.5h0a30.757,30.757,0,0,1-11,0h0" fill="none" stroke="#000100" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="33" cy="25" r="4" fill="none" stroke="#000100" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M25.828,27.828a4,4,0,1,1,0-5.656" fill="none" stroke="#000100" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
