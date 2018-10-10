@@ -1,0 +1,76 @@
+
+
+{% extends 'layouts/application.html' %}
+
+{% block content %}
+<div class="app">
+
+  <!-- <div class="global-notification">
+    <div class="centered global-notification-body">
+      Need a team for Type Jam London?
+    </div>
+  </div> -->
+
+  <!-- HEADER -->
+  <header class="primary relative top-nav animated wipe">
+    <div class="jam-crud"></div>
+    <div class="flex relative wide layout between">
+
+      <!-- <a class="off-canvas-toggle open" href="#nav"><i class="material-icons">menu</i></a> -->
+      <a href="/" class="brand"><div class="jam-berry"></div></a>
+      <div class="nav-links">
+        <a href="events.html" class="nav-link">Events</a>
+        <div class="primary button getUpdates">Get Updates</div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <div class="main overflow-x-hidden" role="main">
+    <section class="relative primary section">
+      <h1 class="level-one heading centered">
+        Events
+      </h1>
+    </section>
+    <div class="transition light"></div>
+    <!-- <section class="section relative">
+      <h2 class="level-two heading centered">Upcoming Events</h2>
+
+    </section> -->
+    <section class="section relative">
+      <h2 class="level-two heading centered">Past Events</h2>
+      <div class="event-list centered">
+        <a href="london-10-2018.html" class="event block">
+          <h3 class="level-three heading">London</h3>
+          <p class="body-copy">10/05/2018</p>
+        </a>
+        <a href="sanfrancisco-09-2017.html" class="event block">
+          <h3 class="level-three heading">San Francisco</h3>
+          <p class="body-copy">09/27/2017</p>
+        </a>
+      </div>
+    </section>
+
+
+    <div class="transition dark"></div>
+    <footer class="primary section centered">
+      <a href="https://cheesesandwich.co">
+        <img src="images/cheesesandwichco-logo.svg">
+      </a>
+    </footer>
+  </div>
+
+</div>
+
+  <script>
+    $(document).ready(function(){
+      $('body').on('click', '.getUpdates', function(){
+        $('#mc_embed_signup').addClass('jello');
+        $('#mce-EMAIL').focus();
+        setTimeout(function(){ $('#mc_embed_signup').removeClass('jello'); }, 1000);
+      })
+    })
+  </script>
+
+  {% endblock %}

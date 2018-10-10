@@ -2,6 +2,10 @@ body {
   font-family: $font-01;
 }
 
+a {
+  color: $brand-color-01;
+}
+
 // * BODY COPY
 .body-copy {
   font-size: 1rem;
@@ -25,7 +29,7 @@ body {
   font-family: $font-heading;
   font-size: 3rem;
   font-style: italic;
-  line-height: $line-height*3;
+  line-height: $line-height*2;
 }
 .level-two.heading {
   @include textTransform();

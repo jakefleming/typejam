@@ -1,0 +1,122 @@
+
+
+{% extends 'layouts/application.html' %}
+
+{% block content %}
+<div class="app">
+
+  <!-- <div class="global-notification">
+    <div class="centered global-notification-body">
+      Need a team for Type Jam London?
+    </div>
+  </div> -->
+
+  <!-- HEADER -->
+  <header class="primary relative top-nav animated wipe">
+    <div class="jam-crud"></div>
+    <div class="flex relative wide layout between">
+
+      <!-- <a class="off-canvas-toggle open" href="#nav"><i class="material-icons">menu</i></a> -->
+      <a href="/" class="brand"><div class="jam-berry"></div></a>
+      <div class="nav-links">
+        <a href="events.html" class="nav-link">Events</a>
+        <div class="primary button getUpdates">Get Updates</div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <div class="main overflow-x-hidden" role="main">
+    <section class="relative primary section">
+      <h1 class="level-one heading centered">
+        San Francisco
+      </h1>
+      <h2 class="level-two heading centered">
+        09/27/2017
+      </h2>
+      <p class="body-copy centered">Prompt: San Francisco Signage</p>
+    </section>
+    <div class="transition light"></div>
+    <h2 class="level-two heading centered sr-only">Winners</h2>
+
+    <!-- <section class="section relative">
+      <h2 class="level-two heading centered">Upcoming Events</h2>
+
+    </section> -->
+    <section class="section relative">
+      <h3 class="level-three heading centered">1st Place</h3>
+      <div contenteditable="" style="font-family: 'Rune';font-size: 112px;line-height:1;" class="centered mb-03">rune</div>
+      <p class="body-copy small centered">Click to try it out!</p>
+      <div class="narrow layout">
+        <p class="body-copy">The Rune team was comprised of Michelle Adams, <a href="https://twitter.com/a2zhang?lang=en/">Amy Zhang</a>, and <a href="https://www.diannaxu.com/">Dianna Xu</a>.</p>
+      </div>
+      <!-- <div class="dense two-column grid stacked-on-mobile mb-02">
+        <div class="column"><img src="images/london2018team5-process-01.jpg"></div>
+        <div class="column"><img src="images/london2018team5-process-02.jpg"></div>
+      </div>
+      <div class="dense three-column grid stacked-on-mobile">
+        <div class="column"><img src="images/london2018team5-02.png"></div>
+        <div class="column"><img src="images/london2018team5-03.png"></div>
+        <div class="column"><img src="images/london2018team5-04.png"></div>
+      </div> -->
+    </section>
+
+    <section class="section relative">
+      <h3 class="level-three heading centered">2nd Place</h3>
+      <div contenteditable="" style="font-family: 'Cigar';text-transform: uppercase;font-size: 112px;line-height:1;" class="centered mb-03">CIGAR</div>
+      <p class="body-copy small centered">Click to try it out!</p>
+      <div class="narrow layout">
+        <p class="body-copy">The Cigar team was comprised of <a href="https://www.instagram.com/tadwagner/">Tad Wagner</a> and <a href="https://www.instagram.com/tommisharp/?hl=en">Tommi Sharp</a>.</p>
+      </div>
+      <!-- <div class="dense two-column grid stacked-on-mobile mb-02">
+        <div class="column"><img src="images/london2018team5-process-01.jpg"></div>
+        <div class="column"><img src="images/london2018team5-process-02.jpg"></div>
+      </div>
+      <div class="dense three-column grid stacked-on-mobile">
+        <div class="column"><img src="images/london2018team5-02.png"></div>
+        <div class="column"><img src="images/london2018team5-03.png"></div>
+        <div class="column"><img src="images/london2018team5-04.png"></div>
+      </div> -->
+    </section>
+
+    <section class="section relative">
+      <h3 class="level-three heading centered">3rd Place</h3>
+      <div contenteditable="" style="font-family: 'OliverSans';font-size: 112px;line-height:1;" class="centered mb-03">Oliver Sans</div>
+      <p class="body-copy small centered">Click to try it out!</p>
+      <div class="narrow layout">
+        <p class="body-copy">Oliver Sans was a solo effort created by <a href="https://tomcaruthers.com/">Tom Caruthers</a>.</p>
+      </div>
+      <!-- <div class="dense two-column grid stacked-on-mobile mb-02">
+        <div class="column"><img src="images/london2018team5-process-01.jpg"></div>
+        <div class="column"><img src="images/london2018team5-process-02.jpg"></div>
+      </div>
+      <div class="dense three-column grid stacked-on-mobile">
+        <div class="column"><img src="images/london2018team5-02.png"></div>
+        <div class="column"><img src="images/london2018team5-03.png"></div>
+        <div class="column"><img src="images/london2018team5-04.png"></div>
+      </div> -->
+    </section>
+
+
+    <div class="transition dark"></div>
+    <footer class="primary section centered">
+      <a href="https://cheesesandwich.co">
+        <img src="images/cheesesandwichco-logo.svg">
+      </a>
+    </footer>
+  </div>
+
+</div>
+
+  <script>
+    $(document).ready(function(){
+      $('body').on('click', '.getUpdates', function(){
+        $('#mc_embed_signup').addClass('jello');
+        $('#mce-EMAIL').focus();
+        setTimeout(function(){ $('#mc_embed_signup').removeClass('jello'); }, 1000);
+      })
+    })
+  </script>
+
+  {% endblock %}

@@ -1,6 +1,7 @@
 @mixin buttonVariant($color, $raised : false ) {
   // The basics for all buttons
   appearance: none;
+  background: white;
   border: 0;
   border-radius: $border-radius;
   display: inline-block;

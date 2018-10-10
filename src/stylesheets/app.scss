@@ -54,6 +54,8 @@ html, body {
   background-repeat: no-repeat;
   background-position: center bottom;
   height: 32px;
+  position: relative;
+  bottom: -1px;
 }
 
 .transition.light {
@@ -61,6 +63,8 @@ html, body {
   background-repeat: no-repeat;
   background-position: center top;
   height: 32px;
+  position: relative;
+  top: -1px;
 }
 
 .jam-berry {
@@ -83,7 +87,7 @@ html, body {
   height: 32px;
   position: absolute;
   width: 100%;
-  top: 56px;
+  top: 55px;
   z-index: 1;
 }
 
